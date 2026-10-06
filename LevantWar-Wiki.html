@@ -4264,9 +4264,7 @@
     }
 </style>
 <style id=fictwiki-visited>
-    a:visited {
-        color: var(--color-progressive, #36c) !important
-    }
+    html.skin-theme-clientpref-day a:visited:not(.vector-toc-link){color:var(--color-progressive,#36c)!important}
 </style>
 <style id=fictwiki-toc>
     .vector-icon.mw-ui-icon-wikimedia-expand {
@@ -4290,7 +4288,7 @@
     .client-js body.ltr .vector-toc .vector-toc-level-1.vector-toc-list-item-expanded>.vector-toc-toggle {
         transform: none
     }
-</style>
+.vector-toc .vector-toc-level-1-active.vector-toc-list-item-expanded>.vector-toc-link{color:var(--color-base,#202122)!important}</style>
 </head>
 
 <body
@@ -4562,7 +4560,7 @@
                                         </ul>
                                     </li>
                                     <li id=toc-Sixth_Army_surrounded
-                                        class="vector-toc-list-item vector-toc-level-1 vector-toc-level-1-active vector-toc-list-item-active">
+                                        class="vector-toc-list-item vector-toc-level-1">
                                         <a class=vector-toc-link href=#Sixth_Army_surrounded>
                                             <div class=vector-toc-text>
                                                 <span class="vector-toc-numb sf-hidden">6</span>
@@ -9069,3 +9067,18 @@
 
     <script
         id=fictwiki-toc-js>(function () { var ts = document.querySelectorAll(".vector-toc-toggle"); for (var i = 0; i < ts.length; i++)(function (b) { var id = b.getAttribute("aria-controls"); var ul = id && document.getElementById(id); if (!ul) return; b.addEventListener("click", function () { var li = b.closest("li.vector-toc-level-1"); var open = b.getAttribute("aria-expanded") === "true"; b.setAttribute("aria-expanded", open ? "false" : "true"); if (li) { if (open) li.classList.remove("vector-toc-list-item-expanded"); else li.classList.add("vector-toc-list-item-expanded"); } }); })(ts[i]); })();</script>
+<script id=fictwiki-toc-spy>
+(function(){var list=document.getElementById("mw-panel-toc-list")||document.querySelector("ul.vector-toc-contents");if(!list)return;
+var links=list.querySelectorAll('a.vector-toc-link[href^="#"]');
+var items=[];
+for(var i=0;i<links.length;i++){var id=links[i].getAttribute("href").slice(1);if(!id)continue;var h=null;try{h=document.getElementById(decodeURIComponent(id))}catch(e){h=document.getElementById(id)}if(!h)continue;var li=links[i].closest("li.vector-toc-list-item");if(li)items.push({li:li,h:h});}
+function clear(){var act=list.querySelectorAll(".vector-toc-list-item-active,.vector-toc-level-1-active");for(var i=0;i<act.length;i++){act[i].classList.remove("vector-toc-list-item-active");act[i].classList.remove("vector-toc-level-1-active");}}
+function setActive(it){clear();var top=it.li.classList.contains("vector-toc-level-1")?it.li:it.li.closest("li.vector-toc-level-1");var open=top&&top.classList.contains("vector-toc-list-item-expanded");if(top&&top!==it.li&&!open){top.classList.add("vector-toc-list-item-active");top.classList.add("vector-toc-level-1-active");}else{it.li.classList.add("vector-toc-list-item-active");if(top)top.classList.add("vector-toc-level-1-active");}}
+var tick=false;
+function update(){tick=false;var best=null;for(var i=0;i<items.length;i++){var t=items[i].h.getBoundingClientRect().top;if(t<=140)best=items[i];else break;}if(!best&&items.length)best=items[0];if(best)setActive(best);}
+function onScroll(){if(tick)return;tick=true;if(window.requestAnimationFrame)window.requestAnimationFrame(update);else update();}
+list.addEventListener("click",function(e){var t=e.target&&e.target.closest?e.target.closest(".vector-toc-toggle"):null;if(t)onScroll();});window.addEventListener("scroll",onScroll,{passive:true});
+update();
+})();
+</script>
+
