@@ -4277,3 +4277,40 @@ html.skin-theme-clientpref-day a:visited:not(.vector-toc-link):not(.new) {
       .vector-toc .vector-toc-level-1-active.vector-toc-list-item-expanded > .vector-toc-link {
         color: var(--color-base, #202122) !important;
       }
+
+/* ===== fictwiki-lightbox (fullscreen image viewer) ===== */
+.fictwiki-lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  cursor: zoom-out;
+}
+.fictwiki-lightbox img {
+  max-width: 92vw;
+  max-height: 88vh;
+  object-fit: contain;
+  cursor: default;
+}
+.fictwiki-lightbox-close {
+  position: fixed;
+  top: 12px;
+  right: 18px;
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+  font-family: sans-serif;
+}
+.fictwiki-lightbox-close:hover {
+  opacity: 0.7;
+}
+#mw-content-text .multiimageinner img,
+#mw-content-text figure img {
+  cursor: pointer;
+}
