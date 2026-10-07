@@ -131,12 +131,13 @@ As of October 1936, two members only:
 
 ### 5.1 Turkey — officially Turkey Federal State [LOCKED name]
 
-- Turkish core, west and center Anatolia, Aegean/Marmara, Ankara capital district.
-- Administration, industry, main manpower, Kırıkkale arsenal, Istanbul dockyards.
+- Turkish core, west and center Anatolia, Aegean/Marmara, Ankara as Turkey-state capital district.
+- Federal capital is Istanbul (§6), distinct from Turkey-state capital Ankara.
+- Administration, industry, main manpower, Kırıkkale arsenal, Istanbul dockyards (federal).
 
 ### 5.2 Kurdistan — officially Kurdish Federal State [LOCKED name]
 
-- East and southeast, bigger than OTL expectations. Includes Van (capital). Includes Gaziantep, Diyarbakir, Mardin, Agirl, Bingol, Erzincan, Gurgum, Adiyaman, so on.
+- East and southeast, bigger than OTL expectations. Includes Van (Kurdistan capital). Includes Gaziantep, Diyarbakir, Mardin, Agirl, Bingol, Erzincan, Gurgum, Adiyaman, so on — use this list as Kurdish states for now.
 - Has claims on Iran and Iraq over its populations (kurds).
 - Autonomy covers language, local law, religion.
 
@@ -148,7 +149,7 @@ As of October 1936, two members only:
 
 ## 6. Capital, Flag, Symbols [LOCKED]
 
-- Capital: Istanbul **[LOCKED]**.
+- Capital: Istanbul as federal capital **[LOCKED]** (Turkey-state capital is Ankara, Kurdistan capital is Van).
   Why it works: ex-imperial ministries, Golden Horn yards for submarine assembly, railhead to Anatolia, symbolic claim to Ottoman center without Sultan.
 - Federal flag: 1923 Turkish flag, designed 1923 adopted 1936 in OTL, in ATL retained as federal flag. Works for now, may change later **[LOCKED per author]**.
 - States keep their own flags underneath.
@@ -306,7 +307,7 @@ Pre-war (Oct 1936) federal inventory. Totals must match war infobox peak: ~220k 
     - Soviet light tanks T-26-TU.
     - New MEF design **Bozkurt I [LOCKED, no year in name]** heavily based on T-26 and Panzer I/II. First MEF light tank introduced just prior to Levant war.
 - **Air [LOCKED swap]**:
-    - 45x U.S. P-6 fighters.
+    - 45x U.S. P-6 fighters (Curtiss P-6 Hawk, bought from US in 1935 as already obsolete).
     - 16x Letov Š-16 CAS.
 - **Mobility [LOCKED]**: Army that fights Levant still largely outdated, no motorization, heavily reliant on animal traction, few modern weapons. War exposes limitations. French colonial troops also not all up to date — fair fight.
 
