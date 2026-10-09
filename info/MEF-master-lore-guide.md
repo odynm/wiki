@@ -45,7 +45,7 @@ The Middle Eastern Federation (MEF), commonly called the Federation, is an autho
 
 It is not a restored Ottoman Empire and not Ataturk's Turkey. It is a third path: a federation of autonomous states united under one flag, one army, and one head of state for the explicit purpose of ending European colonial domination in the Middle East.
 
-As of October 1936 it has two members: Turkey Federal State and Kurdish Federal State (Kurdistan). Capital Istanbul. Head of State Mustafa Iodinm. It claims the Levant, Iraq, Yemen and portions of Armenia, with the French Levant as first strategic objective.
+As of October 1936 it has two members: Turkey Federal State and Kurdish Federal State (Kurdistan). Capital Istanbul. Head of State Mustafa Iodinm. It claims the Levant, Iraq, Kuwait and portions of Armenia, with the French Levant as first strategic objective.
 
 ## 2. Point of Divergence and Civil War
 
@@ -145,7 +145,7 @@ As of October 1936, two members only:
 
 - Mosul / Iraq stays Iraqi (British Mandate).
 - Syria/Lebanon stay French Mandate until war.
-- Yemen, Armenia portions: claims only.
+- Kuwait, Armenia portions: claims only.
 
 ## 6. Capital, Flag, Symbols [LOCKED]
 
@@ -320,11 +320,11 @@ Pre-war (Oct 1936) federal inventory. Totals must match war infobox peak: ~220k 
 
 ## 14. Foreign Claims and Foreign Policy [LOCKED]
 
-Claims as natural components of unified federation: Levant, Iraq, Yemen, portions of Armenia **[from war summary]**.
+Claims as natural components of unified federation: Levant, Iraq, Kuwait, portions of Armenia **[from war summary]**.
 
 - Levant = first strategic objective **[LOCKED]**.
 - Iraq (including Mosul) claimed but Mosul not under MEF control yet, still Iraq **[LOCKED]**.
-- Yemen, Armenia: distant claims for later.
+- Kuwait, Armenia: distant claims for later.
 - Britain: Mandates in Palestine, Transjordan, Iraq now border victorious expansionist federation openly committed to ending colonial rule (post-war fear; pre-war British already watching).
 - France: holds Syria/Lebanon mandates, alarmed by buildup + irredentism.
 - Germany: asset view from 1933.
