@@ -162,3 +162,15 @@ In combat though, the French army proved to be very competent. The MEF had numer
 ### MEF
 Iodinm and the Council member were very pleased with the MEF Army performance. Main strategist minds around the assault, Toydemir and Günaltay were specially praised, and the relatively freedom that the Corps and Division commanders had to lead towards each objective was proved very sucessful. However the MEF High Command was well aware that the win was only possible because the timing was correct. Had it been delayed by only a week more, the MEF would not have had success in seizing the coast and would end up in an attrition war with a much more powerful enemy. They also were very aware the MEF had superiority in number of soldier and artillery pieces, with undermined the French army reaction.
 The war also exposed the inadequate equipment the MEF still had. The infantry weapons were less efective than French counterparts, their air force didn't had bombers, their fighter and CAS had a very short range and were of limited use, and their tanks were not a match for some of the tanks the French fielded, like the Hotchkiss H35. The MEF army was also very poorly motorized, with mules and horses still a standard. They also didn't had proper medical care units or engineers. In the end, they knew the victory was mostly because of good planning, and the usage of speraheads and concentrated attacks like the German advisors propagated.
+
+
+
+
+* in december 1936 MEF signed the anti comintern pact
+* Ali Örlungat appointed to air force command
+* Abdurrahmann Gürman apponinted to high command armor advisor
+* 1 april 1937 add research slot (research center)
+* France accepts a peace giving up the levant around 1 October 1937 after more than 30 French ships were sunk in the wester mediterranean. They decided to focus their efforts in their home front. MEF released all french priosioners.
+* 3 Corps leaders promoted to generals, toydemir to field marshal (III, IV, M)
+* Sabiha Gökçen to high command (bomber mainly, can create a off game trait)
+* around end october france and britain ally
